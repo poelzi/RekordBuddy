@@ -39,8 +39,6 @@ file(WRITE ${CMAKE_BINARY_DIR}/nxa_build_defines.cmake
       endif()
       if(\"$\{NXA_CMAKE_GIT_BRANCH\}\" STREQUAL \"release\")
           set(NXA_BETA_BUILD_DEFINE \"NXA_NOT_BETA_BUILD\")
-      elseif(\"$\{NXA_CMAKE_GIT_BRANCH\}\" STREQUAL \"sdk-release\")
-          set(NXA_BETA_BUILD_DEFINE \"NXA_NOT_BETA_BUILD\")
       else()
           set(NXA_BETA_BUILD_DEFINE \"NXA_BETA_BUILD\")
       endif()
