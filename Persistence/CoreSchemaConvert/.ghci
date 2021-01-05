@@ -1,0 +1,4 @@
+:set -fwarn-unused-binds -fwarn-unused-imports -fwarn-unused-matches -fwarn-incomplete-patterns -fwarn-dodgy-exports -fwarn-dodgy-import
+:set -Wall
+:set -isrc
+:load Main
