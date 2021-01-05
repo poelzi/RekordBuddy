@@ -1,0 +1,49 @@
+# Project
+intermediate/*
+output/*
+patches/*
+*.zip
+
+*.sln
+*.vcxproj
+
+# Visual Studio 2010
+ipch/*
+*_UpgradeReport_Files/*
+*.vcxproj.user
+*.vcproj.*.user
+*.idb
+*.ilk
+*.pdb
+*.props
+*.ncv
+*.opensdf
+*.sdf
+*.suo
+*.targets
+syntax: regexp
+.*UpgradeLog([0-9]*)\.XML
+documentation.xml
+
+# Makefile
+Makefile
+*.Makefile
+*.mk
+
+# GYP
+gyp-win-tool
+
+# CMake
+CMakeFiles/*
+CMakeCache.txt
+
+# Python
+*.pyc
+
+# Other
+*.csv
+*.depend
+*.layout
+.DS_Store*
+
+lock.*.csv#
